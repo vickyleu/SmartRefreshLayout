@@ -18,7 +18,7 @@ package com.scwang.smartrefresh.header.flyrefresh;
 
 import android.graphics.Path;
 import android.graphics.PathMeasure;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 import android.annotation.TargetApi;
 import android.view.animation.Interpolator;
 

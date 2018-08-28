@@ -17,8 +17,8 @@
 package com.scwang.smartrefresh.header.util;
 
 import android.graphics.Color;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntRange;
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntRange;
 
 /**
  * A set of color-related utility methods, building upon those available in {@code Color}.

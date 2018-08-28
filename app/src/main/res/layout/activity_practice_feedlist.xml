@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.scwang.refreshlayout.activity.practice.ProfilePracticeActivity">
 
-    <android.support.v7.widget.Toolbar style="@style/AppTheme.Toolbar"
+    <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar"
         android:id="@+id/toolbar"
         app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
         app:title="@string/title_activity_practice_feedlist"/>
@@ -129,7 +129,7 @@
                 </RelativeLayout>
             </FrameLayout>
 
-            <android.support.v4.widget.NestedScrollView
+            <androidx.core.widget.NestedScrollView
                 android:id="@+id/scrollView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -946,7 +946,7 @@
                         </com.flyco.roundview.RoundLinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.v4.widget.NestedScrollView>
+            </androidx.core.widget.NestedScrollView>
 
         </FrameLayout>
 

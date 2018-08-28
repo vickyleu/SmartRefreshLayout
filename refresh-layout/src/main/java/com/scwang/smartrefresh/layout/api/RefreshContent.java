@@ -1,14 +1,14 @@
 package com.scwang.smartrefresh.layout.api;
 
 import android.animation.ValueAnimator.AnimatorUpdateListener;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RestrictTo;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
-import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static android.support.annotation.RestrictTo.Scope.SUBCLASSES;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+import static androidx.annotation.RestrictTo.Scope.SUBCLASSES;
 
 /**
  * 刷新内容组件

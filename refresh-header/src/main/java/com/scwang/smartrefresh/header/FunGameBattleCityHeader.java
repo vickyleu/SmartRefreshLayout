@@ -1,12 +1,12 @@
 package com.scwang.smartrefresh.header;
 
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Point;
 import android.graphics.RectF;
 import android.os.Build;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 

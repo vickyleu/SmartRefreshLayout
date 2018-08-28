@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.scwang.refreshlayout.fragment.index.RefreshUsingFragment">
 
-    <android.support.v7.widget.Toolbar style="@style/AppTheme.Toolbar"
+    <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar"
         android:id="@+id/toolbar"
         app:title="@string/fragment_refresh_using"/>
 
@@ -17,7 +17,7 @@
         android:background="@android:color/white"
         app:srlEnableRefresh="false"
         app:srlEnableLoadmore="false">
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
